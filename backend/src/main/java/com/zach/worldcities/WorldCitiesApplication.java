@@ -19,6 +19,6 @@ public class WorldCitiesApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		String sql = "INSERT INTO users (firstName, lastName, email) VALUES (?, ?, ?)";
-		jdbcTemplate.update(sql, "Ravi", "Kumar", "ravi.kumar@gmail.com");
+		jdbcTemplate.update(sql, "Zach", "Robles", "zrobles@gmail.com");
 	}
 }
